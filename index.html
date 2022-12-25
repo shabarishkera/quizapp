@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>QUIZ APP</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="outercontainer">
+<div id="container">
+  <div id= "question">
+    <label id="lable">question</label>
+    <input type="button" value="START QUIZ" id="start" onclick="init()"/>
+    <div class="options" id="options">
+
+<li>
+<input type="radio" name="options" id="a" value="">
+<label id="op_a">optiona a</label>
+</li>
+<li>
+<input type="radio" name="options" id="b" value="">
+<label id="op_b">optiona b</label>
+</li>
+<li>
+<input type="radio" name="options" id="c" value="">
+<label id="op_c">optiona d</label>
+</li>
+<li>
+<input type="radio" name="options" id="d" value="">
+<label id="op_d">optiona d</label>
+</li>
+
+</div>
+    </div>
+      <button id="submit" onclick="validate()">submit</button>
+  </div>
+  </div>
+  <script src="script.js"></script>
+  </body>
+</html>
